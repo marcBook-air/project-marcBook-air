@@ -1,6 +1,3 @@
-# project-marcBook-air
-project-marcBook-air created by GitHub Classroom
-
 # Humorly
 
 An app that connects people based on their type of humor.
