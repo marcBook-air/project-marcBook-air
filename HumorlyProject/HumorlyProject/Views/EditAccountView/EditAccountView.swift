@@ -1,8 +1,8 @@
 //
-//  DummyView.swift
-//  Humorly
+//  EditAccountView.swift
+//  HumorlyProject
 //
-//  Created by Marc Vlasblom on 15/12/2021.
+//  Created by Marc Vlasblom on 17/12/2021.
 //
 
 import SwiftUI

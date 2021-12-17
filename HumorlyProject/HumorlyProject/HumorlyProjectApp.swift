@@ -13,7 +13,7 @@ struct HumorlyProjectApp: App {
 
     var body: some Scene {
         WindowGroup {
-            NewAccountView()
+            iCloudConnect()
 //            MainView()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }

@@ -17,10 +17,11 @@
 		498224C3276A0DF8000B06AA /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498224C2276A0DF8000B06AA /* Persistence.swift */; };
 		498224C6276A0DF8000B06AA /* HumorlyProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 498224C4276A0DF8000B06AA /* HumorlyProject.xcdatamodeld */; };
 		498224D3276A0E44000B06AA /* StackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498224CD276A0E44000B06AA /* StackView.swift */; };
-		498224D4276A0E44000B06AA /* EditAccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498224CE276A0E44000B06AA /* EditAccountView.swift */; };
 		498224D6276A0E44000B06AA /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498224D0276A0E44000B06AA /* CardView.swift */; };
 		498224D7276A0E44000B06AA /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498224D1276A0E44000B06AA /* MainView.swift */; };
 		498224DC276A1086000B06AA /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 498224DB276A1086000B06AA /* CloudKit.framework */; };
+		499CC2C6276CB54700051CB5 /* EditAccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499CC2C5276CB54700051CB5 /* EditAccountView.swift */; };
+		499CC2C9276CB68700051CB5 /* iCloudConnect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499CC2C8276CB68700051CB5 /* iCloudConnect.swift */; };
 		49C89BFD276A2F5800F61386 /* LogOrSignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C89BFC276A2F5800F61386 /* LogOrSignInView.swift */; };
 		49C89BFF276A390400F61386 /* NewAccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C89BFE276A390400F61386 /* NewAccountView.swift */; };
 		49C89C01276A544F00F61386 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C89C00276A544F00F61386 /* AccountView.swift */; };
@@ -38,12 +39,13 @@
 		498224C2276A0DF8000B06AA /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		498224C5276A0DF8000B06AA /* HumorlyProject.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HumorlyProject.xcdatamodel; sourceTree = "<group>"; };
 		498224CD276A0E44000B06AA /* StackView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StackView.swift; sourceTree = "<group>"; };
-		498224CE276A0E44000B06AA /* EditAccountView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditAccountView.swift; sourceTree = "<group>"; };
 		498224D0276A0E44000B06AA /* CardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		498224D1276A0E44000B06AA /* MainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		498224D9276A1074000B06AA /* HumorlyProject.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HumorlyProject.entitlements; sourceTree = "<group>"; };
 		498224DB276A1086000B06AA /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
 		498224DD276A11C2000B06AA /* HumorlyProjectRelease.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HumorlyProjectRelease.entitlements; sourceTree = "<group>"; };
+		499CC2C5276CB54700051CB5 /* EditAccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditAccountView.swift; sourceTree = "<group>"; };
+		499CC2C8276CB68700051CB5 /* iCloudConnect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iCloudConnect.swift; sourceTree = "<group>"; };
 		49C89BFC276A2F5800F61386 /* LogOrSignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogOrSignInView.swift; sourceTree = "<group>"; };
 		49C89BFE276A390400F61386 /* NewAccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewAccountView.swift; sourceTree = "<group>"; };
 		49C89C00276A544F00F61386 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
@@ -81,14 +83,15 @@
 		498224B8276A0DF8000B06AA /* HumorlyProject */ = {
 			isa = PBXGroup;
 			children = (
-				498224DD276A11C2000B06AA /* HumorlyProjectRelease.entitlements */,
+				498224BD276A0DF8000B06AA /* Assets.xcassets */,
+				498224C4276A0DF8000B06AA /* HumorlyProject.xcdatamodeld */,
 				498224D9276A1074000B06AA /* HumorlyProject.entitlements */,
 				498224B9276A0DF8000B06AA /* HumorlyProjectApp.swift */,
-				498224D8276A0FBA000B06AA /* Views */,
+				498224DD276A11C2000B06AA /* HumorlyProjectRelease.entitlements */,
 				498224C2276A0DF8000B06AA /* Persistence.swift */,
-				498224C4276A0DF8000B06AA /* HumorlyProject.xcdatamodeld */,
-				498224BD276A0DF8000B06AA /* Assets.xcassets */,
 				498224BF276A0DF8000B06AA /* Preview Content */,
+				499CC2C7276CB64800051CB5 /* Scrips */,
+				498224D8276A0FBA000B06AA /* Views */,
 			);
 			path = HumorlyProject;
 			sourceTree = "<group>";
@@ -110,7 +113,6 @@
 				49C89BF8276A2EDD00F61386 /* AccountView */,
 				49C89BFA276A2F1F00F61386 /* MatchListView */,
 				49C89BF9276A2F0300F61386 /* EditAccountView */,
-				498224CE276A0E44000B06AA /* EditAccountView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -121,6 +123,14 @@
 				498224DB276A1086000B06AA /* CloudKit.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		499CC2C7276CB64800051CB5 /* Scrips */ = {
+			isa = PBXGroup;
+			children = (
+				499CC2C8276CB68700051CB5 /* iCloudConnect.swift */,
+			);
+			path = Scrips;
 			sourceTree = "<group>";
 		};
 		49C89BF6276A2EB300F61386 /* LogOrSignInView */ = {
@@ -155,6 +165,7 @@
 		49C89BF9276A2F0300F61386 /* EditAccountView */ = {
 			isa = PBXGroup;
 			children = (
+				499CC2C5276CB54700051CB5 /* EditAccountView.swift */,
 			);
 			path = EditAccountView;
 			sourceTree = "<group>";
@@ -252,12 +263,13 @@
 				498224D6276A0E44000B06AA /* CardView.swift in Sources */,
 				49C89C01276A544F00F61386 /* AccountView.swift in Sources */,
 				498224D7276A0E44000B06AA /* MainView.swift in Sources */,
-				498224D4276A0E44000B06AA /* EditAccountView.swift in Sources */,
 				498224BC276A0DF8000B06AA /* ContentView.swift in Sources */,
 				498224C6276A0DF8000B06AA /* HumorlyProject.xcdatamodeld in Sources */,
 				49027B13276A54AE00713C57 /* ImageSliderView.swift in Sources */,
 				498224BA276A0DF8000B06AA /* HumorlyProjectApp.swift in Sources */,
 				49027B17276A5F6600713C57 /* MatchListView.swift in Sources */,
+				499CC2C6276CB54700051CB5 /* EditAccountView.swift in Sources */,
+				499CC2C9276CB68700051CB5 /* iCloudConnect.swift in Sources */,
 				498224D3276A0E44000B06AA /* StackView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
