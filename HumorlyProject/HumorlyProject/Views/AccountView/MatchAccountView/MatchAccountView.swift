@@ -21,7 +21,7 @@ struct MatchAccountView: View {
                     .multilineTextAlignment(.leading)
                     .frame(width: 312, height: 55)
                     .padding(.leading)
-                    .background(Color.gray.opacity(0.4))
+                    .background(Color.red.opacity(0.4))
                     .cornerRadius(10)
                     .padding()
                 
@@ -29,14 +29,14 @@ struct MatchAccountView: View {
                     .multilineTextAlignment(.leading)
                     .frame(width: 312, height: 55)
                     .padding(.leading)
-                    .background(Color.gray.opacity(0.4))
+                    .background(Color.red.opacity(0.4))
                     .cornerRadius(10)
                 
                 Text("0612345678")
                     .multilineTextAlignment(.leading)
                     .frame(width: 312, height: 55)
                     .padding(.leading)
-                    .background(Color.gray.opacity(0.4))
+                    .background(Color.red.opacity(0.4))
                     .cornerRadius(10)
                     .padding()
                 
@@ -44,7 +44,7 @@ struct MatchAccountView: View {
                     .multilineTextAlignment(.leading)
                     .frame(width: 312, height: 55)
                     .padding(.leading)
-                    .background(Color.gray.opacity(0.4))
+                    .background(Color.red.opacity(0.4))
                     .cornerRadius(10)
             }
         }

@@ -11,6 +11,7 @@ struct LogOrSignInView: View {
     
     @State private var username: String = ""
     @State private var password: String = ""
+    @State private var showingProfile = false
     
     var body: some View {
             NavigationView {
@@ -42,7 +43,7 @@ extension LogOrSignInView {
         TextField("Username", text: $username)
             .frame(width: 312, height: 55)
             .padding(.leading)
-            .background(Color.gray.opacity(0.4))
+            .background(Color.red.opacity(0.4))
             .cornerRadius(10)
     }
     
@@ -50,7 +51,7 @@ extension LogOrSignInView {
         SecureField("Password", text: $password)
             .frame(width: 312, height: 55)
             .padding(.leading)
-            .background(Color.gray.opacity(0.4))
+            .background(Color.red.opacity(0.4))
             .cornerRadius(10)
     }
     
@@ -62,7 +63,7 @@ extension LogOrSignInView {
             Text("Sign In")
             .frame(width: 312, height: 55)
             .padding(.leading)
-            .background(Color.gray.opacity(0.1))
+            .background(Color.red.opacity(0.8))
             .cornerRadius(10)
         }
     }
@@ -70,9 +71,13 @@ extension LogOrSignInView {
     private var NewAccountButton: some View {
         
         Button {
-            
+            showingProfile.toggle()
         } label: {
             Text("New Account")
+                .foregroundColor(Color.black)
+        }.sheet(isPresented: $showingProfile) {
+            NewAccountView()
         }
+        
     }
 }

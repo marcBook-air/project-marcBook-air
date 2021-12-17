@@ -7,9 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		49027B13276A54AE00713C57 /* ImageSliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49027B12276A54AE00713C57 /* ImageSliderView.swift */; };
 		49027B15276A5E8200713C57 /* MatchAccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49027B14276A5E8200713C57 /* MatchAccountView.swift */; };
 		49027B17276A5F6600713C57 /* MatchListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49027B16276A5F6500713C57 /* MatchListView.swift */; };
+		4941C42C276CF0F800E56F85 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 498224DB276A1086000B06AA /* CloudKit.framework */; };
+		4941C431276CFE4500E56F85 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4941C430276CFE4500E56F85 /* Launch Screen.storyboard */; };
+		4941C433276D032900E56F85 /* ImageSliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4941C432276D032900E56F85 /* ImageSliderView.swift */; };
 		498224BA276A0DF8000B06AA /* HumorlyProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498224B9276A0DF8000B06AA /* HumorlyProjectApp.swift */; };
 		498224BC276A0DF8000B06AA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498224BB276A0DF8000B06AA /* ContentView.swift */; };
 		498224BE276A0DF8000B06AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 498224BD276A0DF8000B06AA /* Assets.xcassets */; };
@@ -19,18 +21,17 @@
 		498224D3276A0E44000B06AA /* StackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498224CD276A0E44000B06AA /* StackView.swift */; };
 		498224D6276A0E44000B06AA /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498224D0276A0E44000B06AA /* CardView.swift */; };
 		498224D7276A0E44000B06AA /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498224D1276A0E44000B06AA /* MainView.swift */; };
-		498224DC276A1086000B06AA /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 498224DB276A1086000B06AA /* CloudKit.framework */; };
 		499CC2C6276CB54700051CB5 /* EditAccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499CC2C5276CB54700051CB5 /* EditAccountView.swift */; };
 		499CC2C9276CB68700051CB5 /* iCloudConnect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499CC2C8276CB68700051CB5 /* iCloudConnect.swift */; };
 		49C89BFD276A2F5800F61386 /* LogOrSignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C89BFC276A2F5800F61386 /* LogOrSignInView.swift */; };
 		49C89BFF276A390400F61386 /* NewAccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C89BFE276A390400F61386 /* NewAccountView.swift */; };
-		49C89C01276A544F00F61386 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C89C00276A544F00F61386 /* AccountView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		49027B12276A54AE00713C57 /* ImageSliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ImageSliderView.swift; path = MatchAccountView/ImageSliderView.swift; sourceTree = "<group>"; };
 		49027B14276A5E8200713C57 /* MatchAccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchAccountView.swift; sourceTree = "<group>"; };
 		49027B16276A5F6500713C57 /* MatchListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatchListView.swift; sourceTree = "<group>"; };
+		4941C430276CFE4500E56F85 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		4941C432276D032900E56F85 /* ImageSliderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ImageSliderView.swift; path = HumorlyProject/Views/AccountView/MatchAccountView/ImageSliderView.swift; sourceTree = SOURCE_ROOT; };
 		498224B6276A0DF8000B06AA /* HumorlyProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HumorlyProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		498224B9276A0DF8000B06AA /* HumorlyProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HumorlyProjectApp.swift; sourceTree = "<group>"; };
 		498224BB276A0DF8000B06AA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -48,7 +49,6 @@
 		499CC2C8276CB68700051CB5 /* iCloudConnect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iCloudConnect.swift; sourceTree = "<group>"; };
 		49C89BFC276A2F5800F61386 /* LogOrSignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogOrSignInView.swift; sourceTree = "<group>"; };
 		49C89BFE276A390400F61386 /* NewAccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewAccountView.swift; sourceTree = "<group>"; };
-		49C89C00276A544F00F61386 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				498224DC276A1086000B06AA /* CloudKit.framework in Frameworks */,
+				4941C42C276CF0F800E56F85 /* CloudKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,6 +92,7 @@
 				498224BF276A0DF8000B06AA /* Preview Content */,
 				499CC2C7276CB64800051CB5 /* Scrips */,
 				498224D8276A0FBA000B06AA /* Views */,
+				4941C430276CFE4500E56F85 /* Launch Screen.storyboard */,
 			);
 			path = HumorlyProject;
 			sourceTree = "<group>";
@@ -112,7 +113,6 @@
 				49C89BF7276A2ECC00F61386 /* MainView */,
 				49C89BF8276A2EDD00F61386 /* AccountView */,
 				49C89BFA276A2F1F00F61386 /* MatchListView */,
-				49C89BF9276A2F0300F61386 /* EditAccountView */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -155,25 +155,17 @@
 		49C89BF8276A2EDD00F61386 /* AccountView */ = {
 			isa = PBXGroup;
 			children = (
-				49C89C00276A544F00F61386 /* AccountView.swift */,
-				49027B12276A54AE00713C57 /* ImageSliderView.swift */,
+				499CC2C5276CB54700051CB5 /* EditAccountView.swift */,
 				49C89BFB276A2F3100F61386 /* MatchAccountView */,
 			);
 			path = AccountView;
-			sourceTree = "<group>";
-		};
-		49C89BF9276A2F0300F61386 /* EditAccountView */ = {
-			isa = PBXGroup;
-			children = (
-				499CC2C5276CB54700051CB5 /* EditAccountView.swift */,
-			);
-			path = EditAccountView;
 			sourceTree = "<group>";
 		};
 		49C89BFA276A2F1F00F61386 /* MatchListView */ = {
 			isa = PBXGroup;
 			children = (
 				49027B16276A5F6500713C57 /* MatchListView.swift */,
+				4941C432276D032900E56F85 /* ImageSliderView.swift */,
 			);
 			path = MatchListView;
 			sourceTree = "<group>";
@@ -244,6 +236,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4941C431276CFE4500E56F85 /* Launch Screen.storyboard in Resources */,
 				498224C1276A0DF8000B06AA /* Preview Assets.xcassets in Resources */,
 				498224BE276A0DF8000B06AA /* Assets.xcassets in Resources */,
 			);
@@ -261,16 +254,15 @@
 				49027B15276A5E8200713C57 /* MatchAccountView.swift in Sources */,
 				498224C3276A0DF8000B06AA /* Persistence.swift in Sources */,
 				498224D6276A0E44000B06AA /* CardView.swift in Sources */,
-				49C89C01276A544F00F61386 /* AccountView.swift in Sources */,
 				498224D7276A0E44000B06AA /* MainView.swift in Sources */,
 				498224BC276A0DF8000B06AA /* ContentView.swift in Sources */,
 				498224C6276A0DF8000B06AA /* HumorlyProject.xcdatamodeld in Sources */,
-				49027B13276A54AE00713C57 /* ImageSliderView.swift in Sources */,
 				498224BA276A0DF8000B06AA /* HumorlyProjectApp.swift in Sources */,
 				49027B17276A5F6600713C57 /* MatchListView.swift in Sources */,
 				499CC2C6276CB54700051CB5 /* EditAccountView.swift in Sources */,
 				499CC2C9276CB68700051CB5 /* iCloudConnect.swift in Sources */,
 				498224D3276A0E44000B06AA /* StackView.swift in Sources */,
+				4941C433276D032900E56F85 /* ImageSliderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -398,6 +390,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_ENTITLEMENTS = HumorlyProject/HumorlyProject.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -408,6 +401,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -428,6 +422,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_ENTITLEMENTS = HumorlyProject/HumorlyProjectRelease.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
@@ -439,6 +434,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (

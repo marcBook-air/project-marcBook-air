@@ -66,6 +66,9 @@ struct StackView: View {
                 } label: {
                     Label("User Profile", systemImage: "person.crop.circle")
                 }
+                .sheet(isPresented: $showingProfile) {
+                    EditAccountView()
+                }
             }
         }
     }

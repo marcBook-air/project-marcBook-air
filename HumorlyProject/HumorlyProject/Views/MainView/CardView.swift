@@ -37,7 +37,7 @@ struct CardView: View {
                     .aspectRatio(contentMode: .fit)
                     .padding()
                     .frame(width: geometry.size.width, height: geometry.size.height)
-                    .background(Color.white.opacity(0.99))
+                    .background(Color.red.opacity(0.4))
                     .cornerRadius(10)
                     .shadow(radius: 10)
                     .animation(.interactiveSpring())

@@ -27,9 +27,10 @@ struct EditAccountView: View {
                 EmailField
                 PhoneField
                 DatePickerField
+                SaveChanges
             }
             .padding()
-            .navigationTitle("New Account")
+            .navigationTitle("Account")
         }
     }
 }
@@ -78,7 +79,7 @@ extension EditAccountView {
         TextField("Name", text: $name)
             .frame(width: 312, height: 55)
             .padding(.leading)
-            .background(Color.gray.opacity(0.4))
+            .background(Color.red.opacity(0.4))
             .cornerRadius(10)
             .keyboardType(.default)
     }
@@ -87,7 +88,7 @@ extension EditAccountView {
         TextField("E-mail", text: $email)
             .frame(width: 312, height: 55)
             .padding(.leading)
-            .background(Color.gray.opacity(0.4))
+            .background(Color.red.opacity(0.4))
             .cornerRadius(10)
             .keyboardType(/*@START_MENU_TOKEN@*/.emailAddress/*@END_MENU_TOKEN@*/)
     }
@@ -96,7 +97,7 @@ extension EditAccountView {
         TextField("Phone Number", text: $phone)
             .frame(width: 312, height: 55)
             .padding(.leading)
-            .background(Color.gray.opacity(0.4))
+            .background(Color.red.opacity(0.4))
             .cornerRadius(10)
             .keyboardType(.phonePad)
     }
@@ -106,7 +107,20 @@ extension EditAccountView {
             .padding(.trailing)
             .frame(width: 312, height: 55)
             .padding(.leading)
-            .background(Color.gray.opacity(0.4))
+            .background(Color.red.opacity(0.4))
             .cornerRadius(10)
     }
+    
+    private var SaveChanges: some View {
+        Button {
+        } label: {
+            Text("Save Changes")
+                .foregroundColor(.black)
+                .frame(width: 312, height: 55)
+                .padding(.leading)
+                .background(Color.red.opacity(0.8))
+                .cornerRadius(10)
+        }
+    }
+
 }
