@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		49027B15276A5E8200713C57 /* MatchAccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49027B14276A5E8200713C57 /* MatchAccountView.swift */; };
 		49027B17276A5F6600713C57 /* MatchListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49027B16276A5F6500713C57 /* MatchListView.swift */; };
+		4920811B276DEA34003AEC5B /* SUImagePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4920811A276DEA34003AEC5B /* SUImagePickerView.swift */; };
 		4941C42C276CF0F800E56F85 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 498224DB276A1086000B06AA /* CloudKit.framework */; };
 		4941C431276CFE4500E56F85 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4941C430276CFE4500E56F85 /* Launch Screen.storyboard */; };
 		4941C433276D032900E56F85 /* ImageSliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4941C432276D032900E56F85 /* ImageSliderView.swift */; };
@@ -30,6 +31,7 @@
 /* Begin PBXFileReference section */
 		49027B14276A5E8200713C57 /* MatchAccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchAccountView.swift; sourceTree = "<group>"; };
 		49027B16276A5F6500713C57 /* MatchListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatchListView.swift; sourceTree = "<group>"; };
+		4920811A276DEA34003AEC5B /* SUImagePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SUImagePickerView.swift; sourceTree = "<group>"; };
 		4941C430276CFE4500E56F85 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		4941C432276D032900E56F85 /* ImageSliderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ImageSliderView.swift; path = HumorlyProject/Views/AccountView/MatchAccountView/ImageSliderView.swift; sourceTree = SOURCE_ROOT; };
 		498224B6276A0DF8000B06AA /* HumorlyProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HumorlyProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -129,6 +131,7 @@
 			isa = PBXGroup;
 			children = (
 				499CC2C8276CB68700051CB5 /* iCloudConnect.swift */,
+				4920811A276DEA34003AEC5B /* SUImagePickerView.swift */,
 			);
 			path = Scrips;
 			sourceTree = "<group>";
@@ -136,8 +139,8 @@
 		49C89BF6276A2EB300F61386 /* LogOrSignInView */ = {
 			isa = PBXGroup;
 			children = (
-				49C89BFE276A390400F61386 /* NewAccountView.swift */,
 				49C89BFC276A2F5800F61386 /* LogOrSignInView.swift */,
+				49C89BFE276A390400F61386 /* NewAccountView.swift */,
 			);
 			path = LogOrSignInView;
 			sourceTree = "<group>";
@@ -251,6 +254,7 @@
 			files = (
 				49C89BFF276A390400F61386 /* NewAccountView.swift in Sources */,
 				49C89BFD276A2F5800F61386 /* LogOrSignInView.swift in Sources */,
+				4920811B276DEA34003AEC5B /* SUImagePickerView.swift in Sources */,
 				49027B15276A5E8200713C57 /* MatchAccountView.swift in Sources */,
 				498224C3276A0DF8000B06AA /* Persistence.swift in Sources */,
 				498224D6276A0E44000B06AA /* CardView.swift in Sources */,
