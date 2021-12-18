@@ -15,18 +15,21 @@ struct LogOrSignInView: View {
     
     var body: some View {
             NavigationView {
-                VStack{
-                    Spacer()
-                    UserNameField
-                    PassWordField
-                    SignInButton
-                    Spacer()
-                    Spacer()
-                    Spacer()
-                    NewAccountButton
-                }
-                .padding()
+                ZStack {
+                    Color.red.opacity(0.2).edgesIgnoringSafeArea(.all)
+                    VStack{
+                        Spacer()
+                        UserNameField
+                        PassWordField
+                        SignInButton
+                        Spacer()
+                        Spacer()
+                        Spacer()
+                        NewAccountButton
+                    }
+                    .padding()
                 .navigationTitle("Sign In")
+                }
             }
     }
 }
@@ -61,6 +64,7 @@ extension LogOrSignInView {
             
         } label: {
             Text("Sign In")
+                .foregroundColor(.black)
             .frame(width: 312, height: 55)
             .padding(.leading)
             .background(Color.red.opacity(0.8))

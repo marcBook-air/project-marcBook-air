@@ -18,19 +18,22 @@ struct EditAccountView: View {
     
     var body: some View {
         NavigationView {
-            VStack {
-                HStack {
-                    ProfilePictureButton
-                    MemePictureButton
+            ZStack {
+                Color.red.opacity(0.2).edgesIgnoringSafeArea(.all)
+                VStack {
+                    HStack {
+                        ProfilePictureButton
+                        MemePictureButton
+                    }
+                    NameField
+                    EmailField
+                    PhoneField
+                    DatePickerField
+                    SaveChanges
                 }
-                NameField
-                EmailField
-                PhoneField
-                DatePickerField
-                SaveChanges
-            }
-            .padding()
+                .padding()
             .navigationTitle("Account")
+            }
         }
     }
 }
@@ -54,6 +57,7 @@ extension EditAccountView {
                         Circle().stroke(.black, lineWidth: 0.7)
                     }
                 Text("Change Profile Picture")
+                    .foregroundColor(.black)
                     .padding()
             }
         }
@@ -70,6 +74,7 @@ extension EditAccountView {
                         Rectangle().stroke(.black, lineWidth: 0.7)
                     }
                 Text("Change Favorite Meme")
+                    .foregroundColor(.black)
                     .padding()
             }
         }

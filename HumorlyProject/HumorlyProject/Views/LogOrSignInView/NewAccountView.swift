@@ -54,23 +54,27 @@ struct NewAccountView: View {
     
     var body: some View {
         NavigationView {
-            ScrollView {
-            VStack {
-                HStack {
-                    ProfilePictureButton
-                    MemePictureButton
+            ZStack {
+                Color.red.opacity(0.2).edgesIgnoringSafeArea(.all)
+                ScrollView {
+                VStack {
+                    Spacer()
+                    HStack {
+                        ProfilePictureButton
+                        MemePictureButton
+                    }
+                    NameField
+                    EmailField
+                    PhoneField
+                    DatePickerField
+                    UserNameField
+                    PassWordField
+                    SignUpButton
                 }
-                NameField
-                EmailField
-                PhoneField
-                DatePickerField
-                UserNameField
-                PassWordField
-                SignUpButton
-            }
-            }
-            .padding()
+                }
+                .padding()
             .navigationTitle("New Account")
+            }
         }
     }
 }
@@ -89,12 +93,13 @@ extension NewAccountView {
         } label: {
             VStack {
                 Image(systemName: "person")
-                    .frame(width: 90, height: 90)
+                    .frame(width: 100, height: 100)
                     .clipShape(Circle())
                     .overlay {
-                        Circle().stroke(.red, lineWidth: 0.0)
-                    }
+                        Circle().stroke(.red, lineWidth: 2)
+                    }.shadow(color: .red, radius: 4)
                 Text("Change Profile Picture")
+                    .foregroundColor(.black)
                     .padding()
             }
         }
@@ -105,11 +110,11 @@ extension NewAccountView {
         } label: {
             VStack {
                 Image(systemName: "person")
-                    .frame(width: 90, height: 0.0)
+                    .frame(width: 100, height: 100)
                     .clipShape(Rectangle())
                     .overlay {
-                        Rectangle().stroke(.red, lineWidth: 0.7)
-                    }
+                        Rectangle().stroke(.red, lineWidth: 2)
+                    }.shadow(color: .red, radius: 4)
                 Text("Change Favorite Meme")
                     .foregroundColor(.black)
                     .padding()
@@ -176,6 +181,7 @@ extension NewAccountView {
             vm.MakeAccountButtonPressed()
         } label: {
             Text("Make a new account")
+                .foregroundColor(.black)
                 .frame(width: 312, height: 55)
                 .padding(.leading)
                 .background(Color.red.opacity(0.8))

@@ -41,34 +41,37 @@ struct StackView: View {
     
     var body: some View {
         NavigationView {
-            VStack {
-                GeometryReader { geometry in
-                    ZStack {
-                        ForEach(self.memes, id: \.self) { meme in
-                            if meme.id > self.maxID - 4 {
-                                CardView(meme: meme, onRemove: { removedMeme in
-                                    self.memes.removeAll { $0.id == removedMeme.id }
-                                })
-                                    .padding(.trailing)
-                                    .frame(width: self.getCardWidth(geometry, id: meme.id), height: 400)
-                                    .offset(x: 0, y: self.getCardOffset(geometry, id: meme.id))
+            ZStack {
+                Color.red.opacity(0.2).edgesIgnoringSafeArea(.all)
+                VStack {
+                    GeometryReader { geometry in
+                        ZStack {
+                            ForEach(self.memes, id: \.self) { meme in
+                                if meme.id > self.maxID - 4 {
+                                    CardView(meme: meme, onRemove: { removedMeme in
+                                        self.memes.removeAll { $0.id == removedMeme.id }
+                                    })
+                                        .padding(.trailing)
+                                        .frame(width: self.getCardWidth(geometry, id: meme.id), height: 400)
+                                        .offset(x: 0, y: self.getCardOffset(geometry, id: meme.id))
+                                }
                             }
                         }
+                        Spacer()
                     }
-                    Spacer()
                 }
+                .padding()
+                .navigationTitle("Humorly")
+                .toolbar {
+                    Button {
+                        showingProfile.toggle()
+                    } label: {
+                        Label("User Profile", systemImage: "person.crop.circle")
+                    }
+                    .sheet(isPresented: $showingProfile) {
+                        EditAccountView()
+                    }
             }
-            .padding()
-            .navigationTitle("Humorly")
-            .toolbar {
-                Button {
-                    showingProfile.toggle()
-                } label: {
-                    Label("User Profile", systemImage: "person.crop.circle")
-                }
-                .sheet(isPresented: $showingProfile) {
-                    EditAccountView()
-                }
             }
         }
     }
