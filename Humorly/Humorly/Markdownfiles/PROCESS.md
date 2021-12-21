@@ -1,4 +1,3 @@
-#  <#Title#>
 # Process making Humorly
 Here a day by day overview of my activities
 
