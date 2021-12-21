@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		49046267276F68A300D9E9AB /* HumorlyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49046266276F68A300D9E9AB /* HumorlyApp.swift */; };
+		49046269276F68A300D9E9AB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49046268276F68A300D9E9AB /* ContentView.swift */; };
+		4904626B276F68A300D9E9AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4904626A276F68A300D9E9AB /* Assets.xcassets */; };
+		4904626E276F68A300D9E9AB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4904626D276F68A300D9E9AB /* Preview Assets.xcassets */; };
+		49046275276F68C500D9E9AB /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49046274276F68C500D9E9AB /* Launch Screen.storyboard */; };
+		494C439F2770987B00C32D72 /* MemeDetailHelperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494C439E2770987B00C32D72 /* MemeDetailHelperView.swift */; };
+		494C43A727709F2C00C32D72 /* memeData.json in Resources */ = {isa = PBXBuildFile; fileRef = 494C43A627709F2C00C32D72 /* memeData.json */; };
+		494C43A927709F4200C32D72 /* Meme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494C43A827709F4200C32D72 /* Meme.swift */; };
+		494C43AB2770A06E00C32D72 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494C43AA2770A06E00C32D72 /* DataModel.swift */; };
+		494C43AD2770A2D000C32D72 /* MemeCollectionBlockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494C43AC2770A2D000C32D72 /* MemeCollectionBlockView.swift */; };
+		494C43AF2770A83E00C32D72 /* MemeCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494C43AE2770A83E00C32D72 /* MemeCollectionView.swift */; };
+		494C43B12770AE5B00C32D72 /* MemeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494C43B02770AE5B00C32D72 /* MemeDetailView.swift */; };
+		494C43B72770D09A00C32D72 /* FavoriteButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494C43B62770D09A00C32D72 /* FavoriteButtonView.swift */; };
+		494C43B92770DD1A00C32D72 /* HumorlyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494C43B82770DD1A00C32D72 /* HumorlyView.swift */; };
+		494C43BD2770E29F00C32D72 /* CategoryRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494C43BC2770E29F00C32D72 /* CategoryRowView.swift */; };
+		494C43BF2770E4AC00C32D72 /* CategoryMemeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494C43BE2770E4AC00C32D72 /* CategoryMemeView.swift */; };
+		494C43C12770F81600C32D72 /* FavoriteMemeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494C43C02770F81600C32D72 /* FavoriteMemeView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		49046263276F68A300D9E9AB /* Humorly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Humorly.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		49046266276F68A300D9E9AB /* HumorlyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HumorlyApp.swift; sourceTree = "<group>"; };
+		49046268276F68A300D9E9AB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4904626A276F68A300D9E9AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4904626D276F68A300D9E9AB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		49046274276F68C500D9E9AB /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		494C439E2770987B00C32D72 /* MemeDetailHelperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemeDetailHelperView.swift; sourceTree = "<group>"; };
+		494C43A627709F2C00C32D72 /* memeData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = memeData.json; sourceTree = "<group>"; };
+		494C43A827709F4200C32D72 /* Meme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meme.swift; sourceTree = "<group>"; };
+		494C43AA2770A06E00C32D72 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		494C43AC2770A2D000C32D72 /* MemeCollectionBlockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemeCollectionBlockView.swift; sourceTree = "<group>"; };
+		494C43AE2770A83E00C32D72 /* MemeCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemeCollectionView.swift; sourceTree = "<group>"; };
+		494C43B02770AE5B00C32D72 /* MemeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemeDetailView.swift; sourceTree = "<group>"; };
+		494C43B62770D09A00C32D72 /* FavoriteButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButtonView.swift; sourceTree = "<group>"; };
+		494C43B82770DD1A00C32D72 /* HumorlyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HumorlyView.swift; sourceTree = "<group>"; };
+		494C43BC2770E29F00C32D72 /* CategoryRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRowView.swift; sourceTree = "<group>"; };
+		494C43BE2770E4AC00C32D72 /* CategoryMemeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryMemeView.swift; sourceTree = "<group>"; };
+		494C43C02770F81600C32D72 /* FavoriteMemeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoriteMemeView.swift; sourceTree = "<group>"; };
+		49CDF676277150070018F8A1 /* PROPOSAL.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = PROPOSAL.md; sourceTree = "<group>"; };
+		49CDF677277150E50018F8A1 /* REVIEW.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = REVIEW.md; sourceTree = "<group>"; };
+		49CDF678277151330018F8A1 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		49CDF679277151520018F8A1 /* ASSESSMENT.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = ASSESSMENT.md; sourceTree = "<group>"; };
+		49CDF67A277151A20018F8A1 /* PROCESS.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = PROCESS.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		49046260276F68A300D9E9AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4904625A276F68A300D9E9AB = {
+			isa = PBXGroup;
+			children = (
+				49046265276F68A300D9E9AB /* Humorly */,
+				49046264276F68A300D9E9AB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		49046264276F68A300D9E9AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				49046263276F68A300D9E9AB /* Humorly.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		49046265276F68A300D9E9AB /* Humorly */ = {
+			isa = PBXGroup;
+			children = (
+				49046266276F68A300D9E9AB /* HumorlyApp.swift */,
+				49CDF67327714D820018F8A1 /* Assets */,
+				49CDF670277149220018F8A1 /* DataModel */,
+				49CDF67227714D630018F8A1 /* LaunchScreen */,
+				49CDF67427714DE50018F8A1 /* Markdownfiles */,
+				4904626C276F68A300D9E9AB /* Preview Content */,
+				49CDF67127714D3A0018F8A1 /* Resources */,
+				49CDF67527714E650018F8A1 /* Screencast */,
+				49CDF66A27713AAD0018F8A1 /* Views */,
+			);
+			path = Humorly;
+			sourceTree = "<group>";
+		};
+		4904626C276F68A300D9E9AB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4904626D276F68A300D9E9AB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		49CDF66A27713AAD0018F8A1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				49CDF66F277143060018F8A1 /* Shared */,
+				49CDF66E27713B4E0018F8A1 /* Favorite */,
+				49CDF66D27713B220018F8A1 /* Collection */,
+				49CDF66C27713B050018F8A1 /* Humorly */,
+				49CDF66B27713AED0018F8A1 /* Content */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		49CDF66B27713AED0018F8A1 /* Content */ = {
+			isa = PBXGroup;
+			children = (
+				49046268276F68A300D9E9AB /* ContentView.swift */,
+			);
+			path = Content;
+			sourceTree = "<group>";
+		};
+		49CDF66C27713B050018F8A1 /* Humorly */ = {
+			isa = PBXGroup;
+			children = (
+				494C43B82770DD1A00C32D72 /* HumorlyView.swift */,
+				494C43BC2770E29F00C32D72 /* CategoryRowView.swift */,
+				494C43BE2770E4AC00C32D72 /* CategoryMemeView.swift */,
+			);
+			path = Humorly;
+			sourceTree = "<group>";
+		};
+		49CDF66D27713B220018F8A1 /* Collection */ = {
+			isa = PBXGroup;
+			children = (
+				494C43AC2770A2D000C32D72 /* MemeCollectionBlockView.swift */,
+				494C43AE2770A83E00C32D72 /* MemeCollectionView.swift */,
+			);
+			path = Collection;
+			sourceTree = "<group>";
+		};
+		49CDF66E27713B4E0018F8A1 /* Favorite */ = {
+			isa = PBXGroup;
+			children = (
+				494C43C02770F81600C32D72 /* FavoriteMemeView.swift */,
+				494C43B62770D09A00C32D72 /* FavoriteButtonView.swift */,
+			);
+			path = Favorite;
+			sourceTree = "<group>";
+		};
+		49CDF66F277143060018F8A1 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				494C439E2770987B00C32D72 /* MemeDetailHelperView.swift */,
+				494C43B02770AE5B00C32D72 /* MemeDetailView.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		49CDF670277149220018F8A1 /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				494C43A827709F4200C32D72 /* Meme.swift */,
+				494C43AA2770A06E00C32D72 /* DataModel.swift */,
+			);
+			path = DataModel;
+			sourceTree = "<group>";
+		};
+		49CDF67127714D3A0018F8A1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				494C43A627709F2C00C32D72 /* memeData.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		49CDF67227714D630018F8A1 /* LaunchScreen */ = {
+			isa = PBXGroup;
+			children = (
+				49046274276F68C500D9E9AB /* Launch Screen.storyboard */,
+			);
+			path = LaunchScreen;
+			sourceTree = "<group>";
+		};
+		49CDF67327714D820018F8A1 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				4904626A276F68A300D9E9AB /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		49CDF67427714DE50018F8A1 /* Markdownfiles */ = {
+			isa = PBXGroup;
+			children = (
+				49CDF676277150070018F8A1 /* PROPOSAL.md */,
+				49CDF677277150E50018F8A1 /* REVIEW.md */,
+				49CDF678277151330018F8A1 /* README.md */,
+				49CDF679277151520018F8A1 /* ASSESSMENT.md */,
+				49CDF67A277151A20018F8A1 /* PROCESS.md */,
+			);
+			path = Markdownfiles;
+			sourceTree = "<group>";
+		};
+		49CDF67527714E650018F8A1 /* Screencast */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Screencast;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		49046262276F68A300D9E9AB /* Humorly */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49046271276F68A300D9E9AB /* Build configuration list for PBXNativeTarget "Humorly" */;
+			buildPhases = (
+				4904625F276F68A300D9E9AB /* Sources */,
+				49046260276F68A300D9E9AB /* Frameworks */,
+				49046261276F68A300D9E9AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Humorly;
+			productName = Humorly;
+			productReference = 49046263276F68A300D9E9AB /* Humorly.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4904625B276F68A300D9E9AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					49046262276F68A300D9E9AB = {
+						CreatedOnToolsVersion = 13.2;
+					};
+				};
+			};
+			buildConfigurationList = 4904625E276F68A300D9E9AB /* Build configuration list for PBXProject "Humorly" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4904625A276F68A300D9E9AB;
+			productRefGroup = 49046264276F68A300D9E9AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				49046262276F68A300D9E9AB /* Humorly */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		49046261276F68A300D9E9AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49046275276F68C500D9E9AB /* Launch Screen.storyboard in Resources */,
+				4904626E276F68A300D9E9AB /* Preview Assets.xcassets in Resources */,
+				4904626B276F68A300D9E9AB /* Assets.xcassets in Resources */,
+				494C43A727709F2C00C32D72 /* memeData.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4904625F276F68A300D9E9AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				494C43C12770F81600C32D72 /* FavoriteMemeView.swift in Sources */,
+				494C43AB2770A06E00C32D72 /* DataModel.swift in Sources */,
+				494C43AD2770A2D000C32D72 /* MemeCollectionBlockView.swift in Sources */,
+				494C439F2770987B00C32D72 /* MemeDetailHelperView.swift in Sources */,
+				494C43B92770DD1A00C32D72 /* HumorlyView.swift in Sources */,
+				494C43BD2770E29F00C32D72 /* CategoryRowView.swift in Sources */,
+				494C43B72770D09A00C32D72 /* FavoriteButtonView.swift in Sources */,
+				494C43A927709F4200C32D72 /* Meme.swift in Sources */,
+				49046269276F68A300D9E9AB /* ContentView.swift in Sources */,
+				494C43BF2770E4AC00C32D72 /* CategoryMemeView.swift in Sources */,
+				494C43AF2770A83E00C32D72 /* MemeCollectionView.swift in Sources */,
+				494C43B12770AE5B00C32D72 /* MemeDetailView.swift in Sources */,
+				49046267276F68A300D9E9AB /* HumorlyApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4904626F276F68A300D9E9AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		49046270276F68A300D9E9AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		49046272276F68A300D9E9AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Humorly/Preview Content\"";
+				DEVELOPMENT_TEAM = DV6MACWMG2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nl.mprog.Humorly;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		49046273276F68A300D9E9AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Humorly/Preview Content\"";
+				DEVELOPMENT_TEAM = DV6MACWMG2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nl.mprog.Humorly;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4904625E276F68A300D9E9AB /* Build configuration list for PBXProject "Humorly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4904626F276F68A300D9E9AB /* Debug */,
+				49046270276F68A300D9E9AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49046271276F68A300D9E9AB /* Build configuration list for PBXNativeTarget "Humorly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49046272276F68A300D9E9AB /* Debug */,
+				49046273276F68A300D9E9AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4904625B276F68A300D9E9AB /* Project object */;
+}
