@@ -22,10 +22,10 @@ This is very personal, but I like to find, save and share memes. But there is on
 ##  The Solution
 With Humorly you can seach, save and share memes in one place. You can save memes by liking them, you can search them by looking in the collection or seaching for a particular category and with a dedicated share menu you can share memes with just a tap.
 ## Scetches
-![DetailView](DOC/DetailView.jpeg)
-![CollectionView](DOC/CollectionView.jpeg)
-![FavoriteView](DOC/FavoriteView.jpeg)
-![HumorlyView](DOC/HumorlyView.jpeg)
+![DetailView](DOC/DetailView.jpg)
+![CollectionView](DOC/CollectionView.jpg)
+![FavoriteView](DOC/FavoriteView.jpg)
+![HumorlyView](DOC/HumorlyView.jpg)
 ## Prerequisites
 ### Data Sources
 For this project I will use:
