@@ -30,13 +30,13 @@ This project was not my original plan. Initial I wanted to make a sort of dating
 
 ## Acknowledgements
 Special thanks goes to:
-    - [Apple for SwiftUI tutorial and code sippets](https://developer.apple.com/tutorials/swiftui)
-    - [Apple for SwiftUI documentation](https://developer.apple.com/documentation/swiftui/)
-    - [Swiftful Thinking for great explanations](https://www.youtube.com/c/swiftfulthinking)
-    - [BetterProgramming for great snippets of code](https://betterprogramming.pub)
-    - [Hacking With Swift for great snippets of code](https://www.hackingwithswift.com)
-    - [Kavsoft for explaining how to implement sharingmenu in app ](https://www.youtube.com/channel/UCsuV4MRk_aB291SrchUVb4w)   
-    - Marijn for his efforts as a mentor
-    - Finn for the initial idea for this app
-    - Curly, my dog who sadly passed away last week
+- [Apple for SwiftUI tutorial and code sippets](https://developer.apple.com/tutorials/swiftui)
+- [Apple for SwiftUI documentation](https://developer.apple.com/documentation/swiftui/)
+- [Swiftful Thinking for great explanations](https://www.youtube.com/c/swiftfulthinking)
+- [BetterProgramming for great snippets of code](https://betterprogramming.pub)
+- [Hacking With Swift for great snippets of code](https://www.hackingwithswift.com)
+- [Kavsoft for explaining how to implement sharingmenu in app ](https://www.youtube.com/channel/UCsuV4MRk_aB291SrchUVb4w)   
+- Marijn for his efforts as a mentor
+- Finn for the initial idea for this app
+- Curly, my dog who sadly passed away last week
 
