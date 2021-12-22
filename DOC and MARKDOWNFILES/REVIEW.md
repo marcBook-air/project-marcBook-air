@@ -4,13 +4,13 @@ I could not find a partner for the code review, so I waited a day and looked at 
 1. 
   * explanation: 
 2.
-* explanation:
+  * explanation:
 3.
-* explanation:
+  * explanation:
 4.
-* explanation:
+  * explanation:
 5. 
-* explanation:
+  * explanation:
 
 
 
