@@ -3,7 +3,7 @@ I could not find a partner for the code review, so I waited a day and looked at 
 
 This are five things I would do different next time
     1. 
-        
+    explanation:
     2.
         
     3.
