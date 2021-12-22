@@ -38,7 +38,6 @@ The app will be a mix of Instagram and a regular newsapp. The inner workings of 
 ### Hardest Part
 The hardest part for me is to make a clear layout, this is because things can get unclear very quickly if you deal with much of the same type of content on one page. To solve this problem I will give extra attention to the whole layout. Goal is to make it feel natural while navigating the app.
 ## Acknowledgements
-
  - [Used README editor](https://readme.so/nl)
  - [Minor programmeren](https://project.mprog.nl/syllabus)
  - I woudl like to thank Finn for helping me come up with the idea for the app
