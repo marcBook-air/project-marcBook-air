@@ -3,13 +3,14 @@ I could not find a partner for the code review, so I waited a day and looked at 
 
 This are five things I would do different next time
     1. 
-    explanation:
+        *explanation:
     2.
-        
+        *explanation:
     3.
-        
+        *explanation:
     4.
-        
+        *explanation:  
     5. 
+        *explanation:
         
 
