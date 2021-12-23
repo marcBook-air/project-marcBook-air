@@ -2,7 +2,8 @@
 My review partner is Max Westerman. He gave me the following point:
 
 # Points of improvement from Max to me 
-- On top of every file you can place a summary about the what the code does and in
+## Point 1:
+On top of every file you can place a summary about the what the code does and in
 which view the code is used. So I do this: 
 
     import SwiftUI
@@ -27,7 +28,7 @@ which view the code is used. So I do this:
             SwiftUIView()
         }
     }
-    
+
 While I also could have done this:
 
     /*View is used in filename.swift and puts two blocks of red text in a vertical stack*/
@@ -53,10 +54,11 @@ While I also could have done this:
             SwiftUIView()
         }
     }
-    
+
 I didn't do this because I thought the functionnames, filenames, variablenames and the grouping of my files made this already very clear. But I have to admit that he has a valid point and I will do this different in the future.
 
--I use very often the same modifiers for different elements in my body. For example I very often do this:
+## Point 2:
+I use very often the same modifiers for different elements in my body. For example I very often do this:
   
     import SwiftUI
 
@@ -80,7 +82,7 @@ I didn't do this because I thought the functionnames, filenames, variablenames a
           SwiftUIView()
       }
     }
-        
+
     While I also could have done this:
 
         import SwiftUI
@@ -108,11 +110,10 @@ I didn't do this because I thought the functionnames, filenames, variablenames a
                 SwiftUIView()
             }
         }
- 
-    
-  - I forgot to put a link to my screencast in my README so that is fixed now 
+## Point 3:
+I forgot to put a link to my screencast in my README so that is fixed now 
 
-  - I didn't get any further points of improvement.
+I didn't get any further points of improvement.
    
 
  
