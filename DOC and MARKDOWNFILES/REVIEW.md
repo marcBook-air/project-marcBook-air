@@ -60,8 +60,8 @@ thought the functionnames, filenames, variablenames and the grouping of my files
         }
         
     It does completely the same but i tought the second way is more readable
-    
-- I Coud have used more extentions. For example I do this: 
+
+  - I didn't get any further points of improvement.
    
 
  
