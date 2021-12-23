@@ -6,9 +6,6 @@ My review partner is Max Westerman. He gave me the following point:
 which view the code is used. I didn't do this because I 
 thought the functionnames, filenames, variablenames and the grouping of my files made this already very clear. But I have to admit that he has a valid point and I will do this different in the future.
 
- - He had no additional poins of improvement 
-
-# Points of improvement i give myself
   - I use very often the same modifiers for different elements in my body.  For example I very often do this:
   
          import SwiftUI
@@ -63,6 +60,63 @@ thought the functionnames, filenames, variablenames and the grouping of my files
         }
         
     It does completely the same but i tought the second way is more readable
+    
+    - I Coud have used more extentions. For example I do this: 
+  
+          import SwiftUI
+
+          struct MemeCollectionBlockView: View {
+              var meme: Meme
+
+              var body: some View {
+                  ZStack {
+                      HStack {
+                          // image
+                          meme.image
+                              .resizable()
+                              .frame(width: 106, height: 106)
+                              .scaledToFill()
+                              .cornerRadius(10)
+                              .shadow(color: .red, radius: 7)
+                      }
+
+                      HStack {
+                          Spacer()
+
+                          VStack {
+                              // if meme is favorite show a heart on the meme
+                              if meme.isFavorite {
+                                  Image(systemName: "heart.fill")
+                                      .resizable()
+                                      .foregroundColor(.red)
+                                      .opacity(0.9)
+                                      .frame(width: 40, height: 40)
+                                      .shadow(color: .red, radius: 7)
+                              }
+
+                              Spacer()
+                          }
+                      }
+                  }
+              }
+          }
+
+          // make a preview to inspect the look of the view
+          struct MemeCollectionBlockView_Previews: PreviewProvider {
+              static var memes = ModelData().memes
+
+              static var previews: some View {
+                  Group {
+                      MemeCollectionBlockView(meme: memes[0])
+                          .previewLayout(.fixed(width: 120, height: 120))
+
+                      MemeCollectionBlockView(meme: memes[2])
+                          .previewLayout(.fixed(width: 120, height: 120))
+                  }
+              }
+          }
+
+ 
 
 
 
