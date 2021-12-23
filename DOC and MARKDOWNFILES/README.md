@@ -13,7 +13,7 @@
     Minimum age             18
     OS                      iOS
     Programming language    Swift & SwiftUI
-    Screencast              [https://share.icloud.com/photos/03f_McwBeX7C4Rv4fscgVHayg](https://share.icloud.com/photos/03f_McwBeX7C4Rv4fscgVHayg)
+    Screencastlink          https://share.icloud.com/photos/03f_McwBeX7C4Rv4fscgVHayg
 
 ## Screenshots
 ![ScreenShot1](DOC/ScreenShot1.jpg)
