@@ -16,7 +16,7 @@
     Screencastlink          https://share.icloud.com/photos/03f_McwBeX7C4Rv4fscgVHayg
 
 ## Screenshots
-![ScreenShot1](DOC/ScreenShot1.PNG | width = 100)
+![ScreenShot1](DOC/ScreenShot1.PNG = 250x)
 ![ScreenShot2](DOC/ScreenShot1.PNG)
 
 ## The app’s purpose
