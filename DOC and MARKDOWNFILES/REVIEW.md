@@ -50,7 +50,7 @@ thought the functionnames, filenames, variablenames and the grouping of my files
         struct SwiftUIView: View {
             var body: some View {
                 VStack {
-                    Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/).modifier(TextModyfiers())
+                    Text("Hello, World!").modifier(TextModyfiers())
                     Text("Hi, World").modifier(TextModyfiers())
                 }
             }
@@ -61,9 +61,8 @@ thought the functionnames, filenames, variablenames and the grouping of my files
                 SwiftUIView()
             }
         }
-    
- 
-
+        
+    It does completely the same but i tought the second way is more readable
 
 
 
