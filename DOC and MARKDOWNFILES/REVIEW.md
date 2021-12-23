@@ -55,11 +55,8 @@ which view the code is used. So I do this:
         }
 
 
-
-
-
-I didn't do this because I 
-thought the functionnames, filenames, variablenames and the grouping of my files made this already very clear. But I have to admit that he has a valid point and I will do this different in the future.
+  I didn't do this because I 
+  thought the functionnames, filenames, variablenames and the grouping of my files made this already very clear. But I have to admit that he has a valid point and        I will do this different in the future.
 
   - I use very often the same modifiers for different elements in my body.  For example I very often do this:
   
@@ -113,8 +110,7 @@ thought the functionnames, filenames, variablenames and the grouping of my files
                 SwiftUIView()
             }
         }
-        
-    It does completely the same but i tought the second way is more readable 
+ 
     
   - I forgot to put a link to my screencast in my README so that is fixed now 
 
