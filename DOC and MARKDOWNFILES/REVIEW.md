@@ -111,9 +111,7 @@ I use very often the same modifiers for different elements in my body. For examp
             }
         }
 ## Point 3:
-I forgot to put a link to my screencast in my README so that is fixed now 
-
-I didn't get any further points of improvement.
+I forgot to put a link to my screencast in my README so that is fixed now.
    
 
  
