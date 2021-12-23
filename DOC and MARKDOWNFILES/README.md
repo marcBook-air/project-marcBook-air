@@ -16,8 +16,8 @@
     Screencastlink          https://share.icloud.com/photos/03f_McwBeX7C4Rv4fscgVHayg
 
 ## Screenshots
-![ScreenShot1](DOC/ScreenShot1.jpg)
-![ScreenShot2](DOC/ScreenShot1.jpg)
+![ScreenShot1](DOC/ScreenShot1.PNG)
+![ScreenShot2](DOC/ScreenShot1.PNG)
 
 ## The app’s purpose
 The app's purpose is to make it easy an contvient to search, save and share memes all in one app.
