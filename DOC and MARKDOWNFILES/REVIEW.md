@@ -34,7 +34,7 @@ thought the functionnames, filenames, variablenames and the grouping of my files
             }
         }
         
-  While I also could have done this:
+    While I also could have done this:
 
     import SwiftUI
 
