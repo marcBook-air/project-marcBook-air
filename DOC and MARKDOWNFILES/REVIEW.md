@@ -83,7 +83,7 @@ I use very often the same modifiers for different elements in my body. For examp
       }
     }
 
-    While I also could have done this:
+While I also could have done this:
 
         import SwiftUI
 
