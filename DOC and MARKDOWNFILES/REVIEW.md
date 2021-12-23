@@ -36,31 +36,31 @@ thought the functionnames, filenames, variablenames and the grouping of my files
         
     While I also could have done this:
 
-    import SwiftUI
+        import SwiftUI
 
-    struct TextModyfiers: ViewModifier {
-        func body(content: Content) -> some View {
-            content
-                .padding()
-                .frame(width: 100, height: 100)
-                .foregroundColor(Color.red)
-        }
-    }
-
-    struct SwiftUIView: View {
-        var body: some View {
-            VStack {
-                Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/).modifier(TextModyfiers())
-                Text("Hi, World").modifier(TextModyfiers())
+        struct TextModyfiers: ViewModifier {
+            func body(content: Content) -> some View {
+                content
+                    .padding()
+                    .frame(width: 100, height: 100)
+                    .foregroundColor(Color.red)
             }
         }
-    }
 
-    struct SwiftUIView_Previews: PreviewProvider {
-        static var previews: some View {
-            SwiftUIView()
+        struct SwiftUIView: View {
+            var body: some View {
+                VStack {
+                    Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/).modifier(TextModyfiers())
+                    Text("Hi, World").modifier(TextModyfiers())
+                }
+            }
         }
-    }
+
+        struct SwiftUIView_Previews: PreviewProvider {
+            static var previews: some View {
+                SwiftUIView()
+            }
+        }
     
  
 
