@@ -5,7 +5,32 @@ My review partner is Max Westerman. He gave me the following point:
   - On top of every file you can place a summary about the what the code does and in
 which view the code is used. So I do this: 
 
-        /*View is used in filename.swift and puts two blocks of red text in a vertical stack*/
+        import SwiftUI
+
+         struct SwiftUIView: View {
+            var body: some View {
+                VStack {
+                    Text("Hello, World!")
+                        .padding()
+                        .frame(width: 100, height: 100)
+                        .foregroundColor(Color.red)
+                    Text("Hi, World")
+                        .padding()
+                        .frame(width: 100, height: 100)
+                        .foregroundColor(Color.red)
+                }
+            }
+        }
+
+        struct SwiftUIView_Previews: PreviewProvider {
+            static var previews: some View {
+                SwiftUIView()
+            }
+        }
+        
+   While I also could have done this:
+   
+         /*View is used in filename.swift and puts two blocks of red text in a vertical stack*/
         import SwiftUI
 
          struct SwiftUIView: View {
